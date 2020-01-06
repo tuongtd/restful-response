@@ -1,5 +1,5 @@
 {
-  "name": "tuongtd/restfull-response",
+  "name": "tuongtd/restful-response",
   "description": "Restful API Response in Json Format, for laravel",
   "type": "php",
   "license": "MIT",
