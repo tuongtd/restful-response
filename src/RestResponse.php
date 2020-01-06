@@ -2,7 +2,7 @@
 
 namespace tuongtd\RestResponse;
 
-class RestResponse
+class Response
 {
 	public $meta = [];
 	public $data = [];
