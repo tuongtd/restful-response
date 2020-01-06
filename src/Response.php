@@ -14,6 +14,16 @@ class Response
 	const STATUS_CODE_TOKEN_INVALID = 403;
 	const STATUS_CODE_TOKEN_EXPIRED = 403;
 
+	protected static $_instance = null;
+
+	public static function init()
+	{
+		if (self::$_instance === null) {
+			self::$_instance = new self();
+		}
+		return self::$_instance;
+	}
+
 	public function addAttribute($attr, $value)
 	{
 		$this->$attr = $value;
