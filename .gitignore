@@ -1,17 +1,1 @@
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
-.env
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
 .idea/
-
-/object/domains_iab.json
-/object/domains_iab_cats.json
-/object/domains_iab_site_ids.json
-/public/index4.php
-/storage/logs_set_campaign.log
