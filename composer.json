@@ -2,7 +2,7 @@
   "name": "tuongtd/restfull-response",
   "description": "Restful API Response in Json Format, for laravel",
   "type": "php",
-  "license": "GPL",
+  "license": "MIT",
   "authors": [
 	{
 	  "name": "TuongTD",
